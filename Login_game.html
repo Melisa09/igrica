@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TicTacToe</title>
+	<meta charset="UTF-8">
+	<link rel="icon" href="https://cdn3.iconfinder.com/data/icons/essenstial-ultimate-ui/64/tic_tac_toe-512.png">
+	<script type="text/javascript" src="igraci.json"></script>
+	<script type="text/javascript" src="loginingame.js"></script>
+	<link rel="stylesheet" type="text/css" href="logincss.css">
+	<script type="text/javascript" src="registracija.js"></script>
+	<script type="text/javascript">
+		var xhttp= new XMLHttpRequest();
+	    xhttp.onreadystatechange=function(){
+		if (xhttp.readyState===4 && xhttp.status===200){
+			player=JSON.parse(xhttp.responseText).igrac;
+			}
+		}
+	xhttp.open("GET","igraci.json", false);
+	xhttp.send();
+	</script>
+</head>
+<body>
+<h2><center>LOG IN:</center></h2>
+	<form>
+    <div><center>
+    </br>
+    Username:
+    <input id="username1" type="text" placeholder="Enter Username" name="username" required>
+    Password:
+    <input id="password1" type="password" placeholder="Enter Password" name="password" required>
+    <button type="button" onclick="login()">Login</button>
+	</br>
+	</br>
+    </center></div>
+    </form>
+<h2><center>NOT A MEMBER? REGISTER:</center></h2>
+	<form>
+    <div><center>
+    </br>
+    E-mail:
+    <input id="email2" type="email"  placeholder="Enter e-mail" name="email" required>
+    Username:
+    <input id="username2" type="text" placeholder="Enter Username" name="username" required>
+    Password:
+    <input id="password2" type="password" placeholder="Enter Password" name="password" required>
+    <button type="button" onclick="registracija()">Register</button>
+	</br>
+	</br>
+    </center></div>
+    </form>
+</body>
+</html>

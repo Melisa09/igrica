@@ -1,0 +1,20 @@
+{
+	"igrac":[
+		{
+		"username":"ednaa",
+		"password":"123",
+		"email":"subotic551@outlook.com"
+		},
+		{
+		"username":"mela",
+		"password":"789",
+		"email":"melisa.melka@hotmail.com"
+		},
+		{
+		"username":"emina",
+		"password":"456",
+		"email":"emina.cokoja@windowslive.com"
+		}
+
+	]
+}

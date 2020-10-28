@@ -1,0 +1,18 @@
+body{
+	background-image: url("background.jpg");
+	margin-top: 200px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+h2{
+	font-family: Garamond;
+	color: #7f1414;
+}
+div{
+	border-style: solid;
+	border-color: #7f1414;
+	border-radius: 10px;
+	font-family: Garamond;
+	font-size: 20px;
+}
