@@ -12,6 +12,7 @@ var turn = document.getElementById("turn"),
                 turn.style.fontSize = "40px";
             }
             
+            
             function getWinner(){
                 
                 var box1 = document.getElementById("box1"),
